@@ -8,16 +8,14 @@ Route::get('/', fn () => view('welcome'));
 
 // ── DASHBOARD ─────────────────────────────────────────────────────────────────
 Route::middleware(['auth', 'verified'])->group(function () {
-
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
-    // API endpoints del dashboard
-    Route::get('/api/kpis',     [DashboardController::class, 'kpis']);
-    Route::get('/api/graficos', [DashboardController::class, 'graficos']);
-    Route::get('/api/detalle',  [DashboardController::class, 'detalle']);
-    Route::get('/api/export',   [DashboardController::class, 'exportCsv'])->name('dashboard.export');
-
 });
+
+// APIs Temporales (Fuera del middleware para diagnóstico)
+Route::get('/api/kpis',     [DashboardController::class, 'kpis']);
+Route::get('/api/graficos', [DashboardController::class, 'graficos']);
+Route::get('/api/detalle',  [DashboardController::class, 'detalle']);
+Route::get('/api/export',   [DashboardController::class, 'exportCsv'])->name('dashboard.export');
 
 // ── PERFIL ────────────────────────────────────────────────────────────────────
 Route::middleware('auth')->group(function () {

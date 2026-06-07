@@ -1,0 +1,124 @@
+DetalleVenta sampling:
+Array
+(
+    [0] => stdClass Object
+        (
+            [iddetalleventa] => 1
+            [cantidad] => 1
+            [preciounitario] => 450.00
+            [descuento] => 0.00
+            [subtotal] => 450.00
+            [fechapedido] => 2024-01-15
+            [idventa] => 1
+            [idproducto] => 
+        )
+
+    [1] => stdClass Object
+        (
+            [iddetalleventa] => 2
+            [cantidad] => 1
+            [preciounitario] => 380.00
+            [descuento] => 0.00
+            [subtotal] => 380.00
+            [fechapedido] => 2024-01-15
+            [idventa] => 1
+            [idproducto] => 
+        )
+
+    [2] => stdClass Object
+        (
+            [iddetalleventa] => 3
+            [cantidad] => 2
+            [preciounitario] => 300.00
+            [descuento] => 0.00
+            [subtotal] => 600.00
+            [fechapedido] => 2024-01-22
+            [idventa] => 2
+            [idproducto] => 
+        )
+
+    [3] => stdClass Object
+        (
+            [iddetalleventa] => 4
+            [cantidad] => 1
+            [preciounitario] => 600.00
+            [descuento] => 0.00
+            [subtotal] => 600.00
+            [fechapedido] => 2024-01-22
+            [idventa] => 2
+            [idproducto] => 
+        )
+
+    [4] => stdClass Object
+        (
+            [iddetalleventa] => 5
+            [cantidad] => 1
+            [preciounitario] => 450.00
+            [descuento] => 0.00
+            [subtotal] => 450.00
+            [fechapedido] => 2024-02-10
+            [idventa] => 3
+            [idproducto] => 
+        )
+
+    [5] => stdClass Object
+        (
+            [iddetalleventa] => 6
+            [cantidad] => 1
+            [preciounitario] => 520.00
+            [descuento] => 0.00
+            [subtotal] => 520.00
+            [fechapedido] => 2024-02-28
+            [idventa] => 4
+            [idproducto] => 
+        )
+
+    [6] => stdClass Object
+        (
+            [iddetalleventa] => 7
+            [cantidad] => 1
+            [preciounitario] => 1200.00
+            [descuento] => 0.00
+            [subtotal] => 1200.00
+            [fechapedido] => 2024-03-05
+            [idventa] => 5
+            [idproducto] => 
+        )
+
+    [7] => stdClass Object
+        (
+            [iddetalleventa] => 8
+            [cantidad] => 1
+            [preciounitario] => 400.00
+            [descuento] => 0.00
+            [subtotal] => 400.00
+            [fechapedido] => 2024-03-05
+            [idventa] => 5
+            [idproducto] => 
+        )
+
+    [8] => stdClass Object
+        (
+            [iddetalleventa] => 9
+            [cantidad] => 2
+            [preciounitario] => 520.00
+            [descuento] => 0.00
+            [subtotal] => 1040.00
+            [fechapedido] => 2024-03-10
+            [idventa] => 6
+            [idproducto] => 
+        )
+
+    [9] => stdClass Object
+        (
+            [iddetalleventa] => 10
+            [cantidad] => 1
+            [preciounitario] => 380.00
+            [descuento] => 0.00
+            [subtotal] => 380.00
+            [fechapedido] => 2024-03-10
+            [idventa] => 6
+            [idproducto] => 
+        )
+
+)

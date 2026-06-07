@@ -1,0 +1,22 @@
+<?php
+require __DIR__.'/vendor/autoload.php';
+$app = require_once __DIR__.'/bootstrap/app.php';
+$kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
+$kernel->bootstrap();
+
+use Illuminate\Support\Facades\DB;
+
+$tables = ['producto', 'categoria', 'detalleventa', 'venta'];
+$result = [];
+
+foreach ($tables as $table) {
+    try {
+        $columns = DB::select("SELECT column_name, data_type FROM information_schema.columns WHERE table_name = ?", [strtolower($table)]);
+        $result[$table] = $columns;
+    } catch (\Exception $e) {
+        $result[$table] = "Error: " . $e->getMessage();
+    }
+}
+
+file_put_contents('schema_correct.json', json_encode($result, JSON_PRETTY_PRINT));
+echo "Done\n";

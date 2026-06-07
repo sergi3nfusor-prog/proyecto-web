@@ -1,0 +1,509 @@
+Categoria table sampling:
+Array
+(
+    [0] => stdClass Object
+        (
+            [idcategoria] => 1
+            [nombrecategoria] => Calzado
+            [descripcion] => Zapatillas y calzado deportivo
+            [idproducto] => 1
+        )
+
+    [1] => stdClass Object
+        (
+            [idcategoria] => 2
+            [nombrecategoria] => Ropa
+            [descripcion] => Camisetas y prendas deportivas
+            [idproducto] => 2
+        )
+
+    [2] => stdClass Object
+        (
+            [idcategoria] => 3
+            [nombrecategoria] => Calzado
+            [descripcion] => Zapatillas y calzado deportivo
+            [idproducto] => 3
+        )
+
+    [3] => stdClass Object
+        (
+            [idcategoria] => 4
+            [nombrecategoria] => Accesorios
+            [descripcion] => Mochilas y bolsos deportivos
+            [idproducto] => 4
+        )
+
+    [4] => stdClass Object
+        (
+            [idcategoria] => 5
+            [nombrecategoria] => Ropa
+            [descripcion] => Shorts y prendas inferiores
+            [idproducto] => 5
+        )
+
+    [5] => stdClass Object
+        (
+            [idcategoria] => 6
+            [nombrecategoria] => Ropa
+            [descripcion] => Ropa de abrigo deportiva
+            [idproducto] => 6
+        )
+
+    [6] => stdClass Object
+        (
+            [idcategoria] => 7
+            [nombrecategoria] => Accesorios
+            [descripcion] => Accesorios menores
+            [idproducto] => 7
+        )
+
+    [7] => stdClass Object
+        (
+            [idcategoria] => 8
+            [nombrecategoria] => Protección
+            [descripcion] => Equipamiento de protección
+            [idproducto] => 8
+        )
+
+    [8] => stdClass Object
+        (
+            [idcategoria] => 9
+            [nombrecategoria] => Calzado
+            [descripcion] => Calzado para fútbol
+            [idproducto] => 9
+        )
+
+    [9] => stdClass Object
+        (
+            [idcategoria] => 10
+            [nombrecategoria] => Equipamiento
+            [descripcion] => Balones y equipos de juego
+            [idproducto] => 10
+        )
+
+    [10] => stdClass Object
+        (
+            [idcategoria] => 11
+            [nombrecategoria] => Ropa
+            [descripcion] => Camisetas de equipos
+            [idproducto] => 11
+        )
+
+    [11] => stdClass Object
+        (
+            [idcategoria] => 12
+            [nombrecategoria] => Protección
+            [descripcion] => Cascos y equipamiento ciclismo
+            [idproducto] => 12
+        )
+
+    [12] => stdClass Object
+        (
+            [idcategoria] => 13
+            [nombrecategoria] => Accesorios
+            [descripcion] => Lentes y accesorios visuales
+            [idproducto] => 13
+        )
+
+    [13] => stdClass Object
+        (
+            [idcategoria] => 14
+            [nombrecategoria] => Equipamiento
+            [descripcion] => Balones y equipos de juego
+            [idproducto] => 14
+        )
+
+    [14] => stdClass Object
+        (
+            [idcategoria] => 15
+            [nombrecategoria] => Ropa
+            [descripcion] => Pantalones deportivos
+            [idproducto] => 15
+        )
+
+    [15] => stdClass Object
+        (
+            [idcategoria] => 16
+            [nombrecategoria] => Equipamiento
+            [descripcion] => Equipamiento artes marciales
+            [idproducto] => 16
+        )
+
+    [16] => stdClass Object
+        (
+            [idcategoria] => 17
+            [nombrecategoria] => Ropa
+            [descripcion] => Ropa femenina deportiva
+            [idproducto] => 17
+        )
+
+    [17] => stdClass Object
+        (
+            [idcategoria] => 18
+            [nombrecategoria] => Ropa
+            [descripcion] => Buzos y conjuntos deportivos
+            [idproducto] => 18
+        )
+
+    [18] => stdClass Object
+        (
+            [idcategoria] => 19
+            [nombrecategoria] => Calzado
+            [descripcion] => Calzado para trail
+            [idproducto] => 19
+        )
+
+    [19] => stdClass Object
+        (
+            [idcategoria] => 20
+            [nombrecategoria] => Accesorios
+            [descripcion] => Gorras y sombreros deportivos
+            [idproducto] => 20
+        )
+
+)
+
+Producto table sampling:
+Array
+(
+    [0] => stdClass Object
+        (
+            [idproducto] => 1
+            [accesorios] => Cordones extra
+            [precio] => 450.00
+            [temporada] => Verano
+            [fechaingreso] => 2024-01-10
+            [nombreproducto] => Zapatillas Running Air
+            [marca] => Nike
+            [estado] => Disponible
+            [material] => Malla sintética
+            [talla] => 42
+            [descripcion] => Zapatillas para correr de alto rendimiento
+            [idproveedor] => 1
+            [idinventario] => 1
+        )
+
+    [1] => stdClass Object
+        (
+            [idproducto] => 2
+            [accesorios] => Bolsa de tela
+            [precio] => 380.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-01-15
+            [nombreproducto] => Camiseta Dri-Fit
+            [marca] => Nike
+            [estado] => Disponible
+            [material] => Poliéster
+            [talla] => M
+            [descripcion] => Camiseta transpirable para entrenamiento
+            [idproveedor] => 1
+            [idinventario] => 2
+        )
+
+    [2] => stdClass Object
+        (
+            [idproducto] => 3
+            [accesorios] => Sin accesorios
+            [precio] => 520.00
+            [temporada] => Invierno
+            [fechaingreso] => 2024-02-01
+            [nombreproducto] => Zapatillas Ultraboost
+            [marca] => Adidas
+            [estado] => Disponible
+            [material] => Primeknit
+            [talla] => 41
+            [descripcion] => Zapatillas con tecnología de amortiguación
+            [idproveedor] => 2
+            [idinventario] => 3
+        )
+
+    [3] => stdClass Object
+        (
+            [idproducto] => 4
+            [accesorios] => Cinturón lumbar
+            [precio] => 890.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-02-10
+            [nombreproducto] => Mochila Deportiva 30L
+            [marca] => Adidas
+            [estado] => Disponible
+            [material] => Nylon reforzado
+            [talla] => U
+            [descripcion] => Mochila con compartimento para hidratación
+            [idproveedor] => 2
+            [idinventario] => 4
+        )
+
+    [4] => stdClass Object
+        (
+            [idproducto] => 5
+            [accesorios] => Sin accesorios
+            [precio] => 210.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-02-20
+            [nombreproducto] => Short Running
+            [marca] => Puma
+            [estado] => Disponible
+            [material] => Poliéster
+            [talla] => L
+            [descripcion] => Short ligero con bolsillos laterales
+            [idproveedor] => 3
+            [idinventario] => 5
+        )
+
+    [5] => stdClass Object
+        (
+            [idproducto] => 6
+            [accesorios] => Guantes incluidos
+            [precio] => 1200.00
+            [temporada] => Invierno
+            [fechaingreso] => 2024-03-01
+            [nombreproducto] => Chaqueta Térmica
+            [marca] => Under Armour
+            [estado] => Disponible
+            [material] => Fleece
+            [talla] => XL
+            [descripcion] => Chaqueta para climas fríos con capucha
+            [idproveedor] => 4
+            [idinventario] => 6
+        )
+
+    [6] => stdClass Object
+        (
+            [idproducto] => 7
+            [accesorios] => Sin accesorios
+            [precio] => 150.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-03-10
+            [nombreproducto] => Calcetines Deportivos x3
+            [marca] => Nike
+            [estado] => Disponible
+            [material] => Algodón/Elastán
+            [talla] => U
+            [descripcion] => Pack de 3 calcetines acolchados
+            [idproveedor] => 1
+            [idinventario] => 7
+        )
+
+    [7] => stdClass Object
+        (
+            [idproducto] => 8
+            [accesorios] => Funda incluida
+            [precio] => 320.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-03-15
+            [nombreproducto] => Rodillera Profesional
+            [marca] => Deportes Sur
+            [estado] => Disponible
+            [material] => Neopreno
+            [talla] => M
+            [descripcion] => Rodillera con soporte lateral reforzado
+            [idproveedor] => 5
+            [idinventario] => 8
+        )
+
+    [8] => stdClass Object
+        (
+            [idproducto] => 9
+            [accesorios] => Sin accesorios
+            [precio] => 680.00
+            [temporada] => Verano
+            [fechaingreso] => 2024-04-01
+            [nombreproducto] => Zapatillas Fútbol Césped
+            [marca] => Adidas
+            [estado] => Disponible
+            [material] => Cuero sintético
+            [talla] => 40
+            [descripcion] => Tacos para césped natural
+            [idproveedor] => 2
+            [idinventario] => 9
+        )
+
+    [9] => stdClass Object
+        (
+            [idproducto] => 10
+            [accesorios] => Inflador manual
+            [precio] => 180.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-04-10
+            [nombreproducto] => Balón de Fútbol N5
+            [marca] => Puma
+            [estado] => Disponible
+            [material] => PVC reforzado
+            [talla] => N5
+            [descripcion] => Balón oficial para partidos
+            [idproveedor] => 3
+            [idinventario] => 10
+        )
+
+    [10] => stdClass Object
+        (
+            [idproducto] => 11
+            [accesorios] => Sin accesorios
+            [precio] => 290.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-04-20
+            [nombreproducto] => Camiseta Fútbol Selección
+            [marca] => Nike
+            [estado] => Disponible
+            [material] => Poliéster
+            [talla] => S
+            [descripcion] => Réplica camiseta selección boliviana
+            [idproveedor] => 1
+            [idinventario] => 11
+        )
+
+    [11] => stdClass Object
+        (
+            [idproducto] => 12
+            [accesorios] => Caja protectora
+            [precio] => 750.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-05-01
+            [nombreproducto] => Casco Ciclismo Aero
+            [marca] => Columbia
+            [estado] => Disponible
+            [material] => Policarbonato
+            [talla] => M
+            [descripcion] => Casco certificado CE con ventilación
+            [idproveedor] => 8
+            [idinventario] => 12
+        )
+
+    [12] => stdClass Object
+        (
+            [idproducto] => 13
+            [accesorios] => Sin accesorios
+            [precio] => 420.00
+            [temporada] => Verano
+            [fechaingreso] => 2024-05-10
+            [nombreproducto] => Lentes Deportivos UV400
+            [marca] => Deportes Sur
+            [estado] => Disponible
+            [material] => Policarbonato
+            [talla] => U
+            [descripcion] => Lentes con filtro UV400 para exteriores
+            [idproveedor] => 5
+            [idinventario] => 13
+        )
+
+    [13] => stdClass Object
+        (
+            [idproducto] => 14
+            [accesorios] => Bolsa de red
+            [precio] => 95.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-05-20
+            [nombreproducto] => Balón Básquetbol
+            [marca] => SportMax
+            [estado] => Disponible
+            [material] => Cuero sintético
+            [talla] => N7
+            [descripcion] => Balón para canchas interiores
+            [idproveedor] => 6
+            [idinventario] => 14
+        )
+
+    [14] => stdClass Object
+        (
+            [idproducto] => 15
+            [accesorios] => Sin accesorios
+            [precio] => 340.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-06-01
+            [nombreproducto] => Pantalón Jogging Slim
+            [marca] => Adidas
+            [estado] => Disponible
+            [material] => Algodón/Poliéster
+            [talla] => M
+            [descripcion] => Pantalón deportivo con elástico en tobillos
+            [idproveedor] => 2
+            [idinventario] => 15
+        )
+
+    [15] => stdClass Object
+        (
+            [idproducto] => 16
+            [accesorios] => Muñequeras incluidas
+            [precio] => 560.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-06-10
+            [nombreproducto] => Guantes Boxeo 12oz
+            [marca] => Under Armour
+            [estado] => Disponible
+            [material] => Cuero PU
+            [talla] => 12oz
+            [descripcion] => Guantes de entrenamiento para boxeo
+            [idproveedor] => 4
+            [idinventario] => 16
+        )
+
+    [16] => stdClass Object
+        (
+            [idproducto] => 17
+            [accesorios] => Sin accesorios
+            [precio] => 270.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-06-20
+            [nombreproducto] => Malla Deportiva Mujer
+            [marca] => Nike
+            [estado] => Disponible
+            [material] => Spandex
+            [talla] => S
+            [descripcion] => Malla compresión para yoga y pilates
+            [idproveedor] => 1
+            [idinventario] => 17
+        )
+
+    [17] => stdClass Object
+        (
+            [idproducto] => 18
+            [accesorios] => Sin accesorios
+            [precio] => 480.00
+            [temporada] => Invierno
+            [fechaingreso] => 2024-07-01
+            [nombreproducto] => Buzo Completo Deportivo
+            [marca] => Puma
+            [estado] => Disponible
+            [material] => Poliéster
+            [talla] => L
+            [descripcion] => Buzo con capucha desmontable
+            [idproveedor] => 3
+            [idinventario] => 18
+        )
+
+    [18] => stdClass Object
+        (
+            [idproducto] => 19
+            [accesorios] => Bolsa de tela
+            [precio] => 610.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-07-10
+            [nombreproducto] => Zapatillas Trail Running
+            [marca] => New Balance
+            [estado] => Disponible
+            [material] => Malla/Goma
+            [talla] => 43
+            [descripcion] => Zapatillas para terreno irregular
+            [idproveedor] => 7
+            [idinventario] => 19
+        )
+
+    [19] => stdClass Object
+        (
+            [idproducto] => 20
+            [accesorios] => Sin accesorios
+            [precio] => 130.00
+            [temporada] => Todo año
+            [fechaingreso] => 2024-07-20
+            [nombreproducto] => Gorra Running
+            [marca] => Asics
+            [estado] => Disponible
+            [material] => Poliéster
+            [talla] => U
+            [descripcion] => Gorra ligera con protección solar
+            [idproveedor] => 10
+            [idinventario] => 20
+        )
+
+)

@@ -1,0 +1,150 @@
+{
+    "producto": [
+        {
+            "column_name": "idproducto",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "accesorios",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "precio",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "temporada",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "fechaingreso",
+            "data_type": "date"
+        },
+        {
+            "column_name": "nombreproducto",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "marca",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "estado",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "material",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "talla",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "descripcion",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "idproveedor",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "idinventario",
+            "data_type": "integer"
+        }
+    ],
+    "categoria": [
+        {
+            "column_name": "idcategoria",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "nombrecategoria",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "descripcion",
+            "data_type": "character varying"
+        },
+        {
+            "column_name": "idproducto",
+            "data_type": "integer"
+        }
+    ],
+    "detalleventa": [
+        {
+            "column_name": "iddetalleventa",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "cantidad",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "preciounitario",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "descuento",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "subtotal",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "fechapedido",
+            "data_type": "date"
+        },
+        {
+            "column_name": "idventa",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "idproducto",
+            "data_type": "integer"
+        }
+    ],
+    "venta": [
+        {
+            "column_name": "idventa",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "montototal",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "impuesto",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "descuentoaplicado",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "fechaventa",
+            "data_type": "date"
+        },
+        {
+            "column_name": "preciomomento",
+            "data_type": "numeric"
+        },
+        {
+            "column_name": "idpago",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "idempleado",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "idfactura",
+            "data_type": "integer"
+        },
+        {
+            "column_name": "idcliente",
+            "data_type": "integer"
+        }
+    ]
+}
